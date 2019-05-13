@@ -10,7 +10,8 @@ namespace StringConcatenatorLogic
 
         public string addStrings(string lh, string rh)
         {
-            return lh + " " + rh;
+
+            return lh.Trim() + " " + rh;
         }
     }
 }
